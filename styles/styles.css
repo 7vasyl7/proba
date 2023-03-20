@@ -1,0 +1,33 @@
+/* шапка для наслідування елеметам  стилю  , 
+border-box*/
+
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
+
+body{
+    font-family:  Helvetica ;
+}
+.btn{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.btn-icon{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: skyblue;
+    vertical-align: bottom;
+}
